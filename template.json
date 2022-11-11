@@ -1,0 +1,6 @@
+{
+    "conf_list": ["fs_1","fs_2"],
+    "db_host": "host",
+    "db_user": "db_user",
+    "db_pwd": "db_password"
+}
