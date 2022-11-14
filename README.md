@@ -2,7 +2,7 @@
 
 ## What is it ##
 
-This is a python wrapper to exract informations abount user occupations on
+This is a python wrapper to extract informations abount user occupations on
 certain filesystems using [robinhood](https://github.com/cea-hpc/robinhood).
 
 This software was developed in [San Raffaele Hospital](https://www.hsr.it/) - 
