@@ -43,7 +43,7 @@ optional arguments:
   -o OUT_FOLDER, --out_folder OUT_FOLDER
                         A folder that will contain the reports and file list
   -p PROCESSES, --processes PROCESSES
-                        A json file containing all the necessary infos
+                        Number of subproceeses to be spawned
                         
 ```
 
@@ -60,6 +60,6 @@ present in the repo
 ```
 	
 
-## Contancts ##
+## Contacts ##
 
 Ilario Tagliaferri: tagliaferri.ilario\@hsr.it
