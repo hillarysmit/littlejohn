@@ -64,9 +64,9 @@ The produced output are the the following:
 
 1. A report in the following form
 
-```json
+```bash
 
-==2022-11-17 20:03:34.639032===
+===2022-11-17 20:03:34.639032===
 Report of user user1 on filesystem_1 filesystem:
 file type      file count     space used
 -----------  ------------  -------------
