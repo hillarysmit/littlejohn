@@ -58,7 +58,36 @@ present in the repo
     "db_pwd": "db_password"
 }
 ```
-	
+
+## Outputs ##
+The produced output are the the following:
+
+1. A report in the following form
+
+```json
+
+==2022-11-17 20:03:34.639032===
+Report of user user1 on filesystem_1 filesystem:
+file type      file count     space used
+-----------  ------------  -------------
+++                 182413    28190232166
++fastqz+             1052  2079929525675
+
+Report of user user_1 on filesystem_2 filesystem:
+file type      file count    space used
+-----------  ------------  ------------
+++                  10064   89603570551
++bam+                 606  192381971436
++bed+                 224   17538521575
++fastq+                94   74941283740
++fastqz+              668  150399740025
+
+```
+
+The same report will be sent to each user by email
+
+2. a cvs files containing a list of all the files belonging to each user
+
 
 ## Contacts ##
 
