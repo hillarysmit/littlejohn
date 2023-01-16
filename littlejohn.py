@@ -1,4 +1,4 @@
-#    Copyright (C) 2022 Tagliaferri Ilario
+#    Copyright (C) 2023 Tagliaferri Ilario
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -100,7 +100,7 @@ class user:
         """
         
         self.recoursive_user_filelist()
-        self.recoursive_report()
+        self.send_email_report()
     
         return(None)
 
@@ -205,12 +205,12 @@ class user:
 
         file_user = cursor.fetchall()
         
-        output_table = [["file type","file count","space used"]]
+        output_table = [["file type","file count","space used (GB)"]]
 
         for element in file_user:
             filetype = element[0].decode("UTF-8")
             file_count = element[1]
-            file_size = int(element[2])
+            file_size = int(element[2]/1000000000)
             output_table.append([filetype, file_count, file_size])
 	
         return(output_table)
